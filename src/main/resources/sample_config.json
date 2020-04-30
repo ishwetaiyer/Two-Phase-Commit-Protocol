@@ -1,0 +1,26 @@
+{
+  "nodes": [
+    {
+      "type": "POSTGRESQL",
+      "config":
+      {
+        "threadCount": 1,
+        "dbURL": "jdbc:postgresql",
+        "params": {
+          "username": "aditya",
+          "password": "aa"
+        }
+      }
+    },
+    {
+      "type": "FAKE",
+      "config": {
+        "frequency": "10"
+      }
+    },
+    {
+      "type": "DEFAULT",
+      "config": {}
+    }
+  ]
+}
